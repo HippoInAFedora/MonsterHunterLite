@@ -1,0 +1,262 @@
+ManifestFileVersion: 0
+CRC: 1549463431
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ffdf0626bec8df1d117ee9309c0312b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c357fa43ff2e1360157495403eb365e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a68da65c907acb4eb4dbcd042f172e7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: RoR2
+  ClassName: ChildLocator/NameTransformPair
+Assets:
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Idle.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texStingerIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/IdleIn.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matBazooka.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/RedBugBuffIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskImpact.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/WhiteBugBuffIcon.png
+- Assets/MonsterHunterLite/Assets/FBX/animHenryHolstered.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/RedBugMain.png
+- Assets/MonsterHunterLite/Assets/MHBundle/GreatswordDisplay.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/AimPitch.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshNeoCoat.mesh
+- Assets/MonsterHunterLite/Assets/FBX/SwordSwingMesh.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/MenuIdleIn.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/RestIdleIn.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/BugCoreOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matDust.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/GunlanceMonsterMaster.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenry.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Mesh/meshBoxingGlove.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matRoy.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texShotgun.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texSmoke.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texMasteryAchievement.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/WhiteBugGlow.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texSlash.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texPistolIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/WhiteBugMain.png
+- Assets/MonsterHunterLite/Assets/MHBundle/mdlGlaive.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/HenrySwordSwingEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texDust.png
+- Assets/MonsterHunterLite/Assets/MHBundle/mdlGreatsword.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenry.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matSwingEffect.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texPunchImpact.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/animHenry.controller
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshDanteCoat.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matPunchImpact.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texFire.tga
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matFire.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/HenryBombGhost.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matTrail.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texLightning.tif
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskBandana.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/FistBarrageEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texSwingEffect.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matHenryNeo.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texGrandMasteryAchievement.png
+- Assets/MonsterHunterLite/Assets/FBX/Henry.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/BugCoreOutlineInvert.png
+- Assets/MonsterHunterLite/Assets/MHBundle/GlaiveMonsterMaster 1.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/OrangeBugGlow.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texHenryAchievement.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/Shaders/detonationShader.shader
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshPistol.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texSecondaryIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshDante.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matFistSwing.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Mesh/meshPunchShockwave.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matDetonation.mat
+- Assets/MonsterHunterLite/Assets/FBX/Bomb.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/BugCrosshairColor.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texBoxingGlove.png
+- Assets/MonsterHunterLite/Assets/FBX/HenryMastery.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texBazookaOutIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryNeo.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/OrangeBugBuffIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Jump.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/SprintF.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/AirBugOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matSwingShadow.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matHitSpark.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenryNeo.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/SwarmStatusHolder.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenrySwordAlt.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matHenrySwing2.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texDanteAchievement.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryAlt.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Descend.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Slash1.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/SlashCircle.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/LightImpact.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Slash2.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/AirBugGlow.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/ImpactHenryPunch.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texScepterSpecialIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matBazookaRocket.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/HenryBazookaRocketGhost.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenrySword.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texPrimaryIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/GreatswordMonsterMaster.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texHenryIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/mdlGunlance.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matRebellion.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matHenryAlt.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texMainSkin.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshVergil.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/WalkF.anim
+- Assets/MonsterHunterLite/Assets/FBX/animHenry.fbx
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matHenryJedi.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/HenryFistSwingEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshRebellion.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texUtilityIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matPunchEffect.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/DescendFast.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/GlaiveCrosshair.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/MenuIdle.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texBazooka.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenryAlt.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texBazookaIconScepter.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texVergilAchievement.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/MeshHenryGun.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryJediEmission.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/BombExplosionEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Mesh/meshSwing.asset
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/AirBugMain.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/SprintR.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/OrangeBugMain.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matDetonationSpark.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/GunlanceDisplay.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texShotgunIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/HenryBazookaMuzzleFlash.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matBoxingGlove.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryDanteEmission.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryVergil.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matPunchImpactShadow.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texBoxingGlovesIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texFistSwing.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshYamato.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/ShootGun.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/BugCoreColor.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matSlash.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/GlaiveDisplay.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matEmbers.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/BlastBugAttachEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/RedBugOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/AimYaw.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/DefaultPose.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/BugCrosshairOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/WalkB.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matRipple.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texSpecialIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/ThrowBomb.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/HenryDustEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/WalkL.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/RestIdle.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskAimBazooka.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/BlastBugDetonationEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matShotgun.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/SprintL.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskAimYaw.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matVergil.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshUzi.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matAnimeShapes.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/RedBugGlow.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texEmbers.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matHitSparkPunch.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texBazookaIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskLeftArm.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskAimPitch.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Ascend.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskGesture.mask
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texHenrySwing2.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/WalkR.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/HenryBazookaExplosionEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matHenry.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texHitSpark.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texRipple.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/IdleAdditive.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texBazookaFireIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/WhiteBugOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Materials/matDante.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/AirBugBuffIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matSmoke.mat
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryDante.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Textures/texHenryJedi.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Textures/texPunchImpactShadow.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/OrangeBugOutline.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texUziIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Icons/texPassiveIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Roll.anim
+- Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshVergilCoat.mesh
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/ImpactHenrySlash.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/Animation/animHenryMenu.controller
+Dependencies: []

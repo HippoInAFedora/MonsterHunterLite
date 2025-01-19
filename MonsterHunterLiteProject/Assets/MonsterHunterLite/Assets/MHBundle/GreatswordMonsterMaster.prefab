@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7105580948135822863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7138938043099199804}
+  - component: {fileID: 1534522465926095920}
+  - component: {fileID: 410238899514605293}
+  - component: {fileID: 5600573263393467827}
+  - component: {fileID: 3672276150604438195}
+  - component: {fileID: 6263779198906392192}
+  m_Layer: 0
+  m_Name: GreatswordMonsterMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7138938043099199804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3578148, y: 0, z: 6.2745967}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534522465926095920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Use Primary Swing
+  skillSlot: 0
+  requiredSkill: {fileID: 0}
+  requireSkillReady: 0
+  requireEquipmentReady: 0
+  minUserHealthFraction: -Infinity
+  maxUserHealthFraction: Infinity
+  minTargetHealthFraction: -Infinity
+  maxTargetHealthFraction: Infinity
+  minDistance: 0
+  maxDistance: 8
+  selectionRequiresTargetLoS: 0
+  selectionRequiresOnGround: 0
+  selectionRequiresAimTarget: 0
+  maxTimesSelected: -1
+  moveTargetType: 0
+  activationRequiresTargetLoS: 0
+  activationRequiresAimTargetLoS: 0
+  activationRequiresAimConfirmation: 0
+  movementType: 1
+  moveInputScale: 1
+  aimType: 1
+  ignoreNodeGraph: 0
+  shouldSprint: 0
+  shouldFireEquipment: 0
+  shouldTapButton: 0
+  buttonPressType: 0
+  driverUpdateTimerOverride: -1
+  resetCurrentEnemyOnNextDriverSelection: 0
+  noRepeat: 0
+  nextHighPriorityOverride: {fileID: 0}
+--- !u!114 &410238899514605293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Use Secondary Shoot
+  skillSlot: 1
+  requiredSkill: {fileID: 0}
+  requireSkillReady: 1
+  requireEquipmentReady: 0
+  minUserHealthFraction: -Infinity
+  maxUserHealthFraction: Infinity
+  minTargetHealthFraction: -Infinity
+  maxTargetHealthFraction: Infinity
+  minDistance: 0
+  maxDistance: 25
+  selectionRequiresTargetLoS: 0
+  selectionRequiresOnGround: 0
+  selectionRequiresAimTarget: 0
+  maxTimesSelected: -1
+  moveTargetType: 0
+  activationRequiresTargetLoS: 0
+  activationRequiresAimTargetLoS: 0
+  activationRequiresAimConfirmation: 0
+  movementType: 1
+  moveInputScale: 1
+  aimType: 1
+  ignoreNodeGraph: 0
+  shouldSprint: 0
+  shouldFireEquipment: 0
+  shouldTapButton: 0
+  buttonPressType: 0
+  driverUpdateTimerOverride: -1
+  resetCurrentEnemyOnNextDriverSelection: 0
+  noRepeat: 0
+  nextHighPriorityOverride: {fileID: 0}
+--- !u!114 &5600573263393467827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Use Utility roll
+  skillSlot: 2
+  requiredSkill: {fileID: 0}
+  requireSkillReady: 1
+  requireEquipmentReady: 0
+  minUserHealthFraction: -Infinity
+  maxUserHealthFraction: Infinity
+  minTargetHealthFraction: -Infinity
+  maxTargetHealthFraction: Infinity
+  minDistance: 10
+  maxDistance: 20
+  selectionRequiresTargetLoS: 1
+  selectionRequiresOnGround: 0
+  selectionRequiresAimTarget: 0
+  maxTimesSelected: -1
+  moveTargetType: 0
+  activationRequiresTargetLoS: 0
+  activationRequiresAimTargetLoS: 0
+  activationRequiresAimConfirmation: 0
+  movementType: 2
+  moveInputScale: 1
+  aimType: 1
+  ignoreNodeGraph: 0
+  shouldSprint: 0
+  shouldFireEquipment: 0
+  shouldTapButton: 0
+  buttonPressType: 0
+  driverUpdateTimerOverride: -1
+  resetCurrentEnemyOnNextDriverSelection: 0
+  noRepeat: 0
+  nextHighPriorityOverride: {fileID: 0}
+--- !u!114 &3672276150604438195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Use Special Bomb
+  skillSlot: 3
+  requiredSkill: {fileID: 0}
+  requireSkillReady: 1
+  requireEquipmentReady: 0
+  minUserHealthFraction: -Infinity
+  maxUserHealthFraction: Infinity
+  minTargetHealthFraction: -Infinity
+  maxTargetHealthFraction: Infinity
+  minDistance: 0
+  maxDistance: 20
+  selectionRequiresTargetLoS: 0
+  selectionRequiresOnGround: 0
+  selectionRequiresAimTarget: 0
+  maxTimesSelected: -1
+  moveTargetType: 0
+  activationRequiresTargetLoS: 0
+  activationRequiresAimTargetLoS: 0
+  activationRequiresAimConfirmation: 0
+  movementType: 1
+  moveInputScale: 1
+  aimType: 1
+  ignoreNodeGraph: 0
+  shouldSprint: 0
+  shouldFireEquipment: 0
+  shouldTapButton: 0
+  buttonPressType: 0
+  driverUpdateTimerOverride: -1
+  resetCurrentEnemyOnNextDriverSelection: 0
+  noRepeat: 0
+  nextHighPriorityOverride: {fileID: 0}
+--- !u!114 &6263779198906392192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105580948135822863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Chase
+  skillSlot: -1
+  requiredSkill: {fileID: 0}
+  requireSkillReady: 0
+  requireEquipmentReady: 0
+  minUserHealthFraction: -Infinity
+  maxUserHealthFraction: Infinity
+  minTargetHealthFraction: -Infinity
+  maxTargetHealthFraction: Infinity
+  minDistance: 0
+  maxDistance: Infinity
+  selectionRequiresTargetLoS: 0
+  selectionRequiresOnGround: 0
+  selectionRequiresAimTarget: 0
+  maxTimesSelected: -1
+  moveTargetType: 0
+  activationRequiresTargetLoS: 0
+  activationRequiresAimTargetLoS: 0
+  activationRequiresAimConfirmation: 0
+  movementType: 1
+  moveInputScale: 1
+  aimType: 1
+  ignoreNodeGraph: 0
+  shouldSprint: 0
+  shouldFireEquipment: 0
+  shouldTapButton: 0
+  buttonPressType: 0
+  driverUpdateTimerOverride: -1
+  resetCurrentEnemyOnNextDriverSelection: 0
+  noRepeat: 0
+  nextHighPriorityOverride: {fileID: 0}
