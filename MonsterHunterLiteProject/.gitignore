@@ -9,29 +9,28 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-MonsterHunterLite/
 
 #Ensures AmplifyShaderEditor is not redistributed
-MonsterHunterLiteProject/Assets/[Aa]mplifyShaderEditor/
+/Assets/[Aa]mplifyShaderEditor/
 
 #Ensures Wwise is not redistributed
-MonsterHunterLiteProject/Assets/Wwise/
+/Assets/Wwise/
 
 #Ensures RoR2 assemblies are not redistributed accidentally
-MonsterHunterLiteProject/[Pp]ackages/[Rr]isk of Rain 2/*.dll
-MonsterHunterLiteProject/[Pp]ackages/[Rr]isk of Rain 2/[Pp]lugins/*.dll
+/[Pp]ackages/[Rr]isk of Rain 2/*.dll
+/[Pp]ackages/[Rr]isk of Rain 2/[Pp]lugins/*.dll
 
 #Client side only thunderkit related files.
-MonsterHunterLiteProject/Assets/ThunderKitSettings/EditorInspectorSettings.asset
-MonsterHunterLiteProject/Assets/ThunderKitSettings/RoR2.asset
-MonsterHunterLiteProject/Assets/ThunderKitSettings/Logs/*
-MonsterHunterLiteProject/Assets/ThunderKitSettings/ThunderKit Extensions.asset
-MonsterHunterLiteProject/ThunderKit/
+/Assets/ThunderKitSettings/EditorInspectorSettings.asset
+/Assets/ThunderKitSettings/RoR2.asset
+/Assets/ThunderKitSettings/Logs/*
+/Assets/ThunderKitSettings/ThunderKit Extensions.asset
+/ThunderKit/
 
 #Ensures mod dependencies such as R2API and others are not explicitly added to the github repository to avoid unecesary redistribution
-MonsterHunterLiteProject/Packages/*
-!MonsterHunterLiteProject/Packages/packages-lock.json
-!MonsterHunterLiteProject/Packages/manifest.json
+/Packages/*
+!/Packages/packages-lock.json
+!/Packages/manifest.json
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -93,6 +92,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-/MonsterHunterLiteProject/ProjectSettings
-/MonsterHunterLiteProject/Assets/ThunderKitSettings
-/MonsterHunterLiteProject/Assets/Scenes
+/ProjectSettings
+/Assets/ThunderKitSettings
+/Assets/Scenes

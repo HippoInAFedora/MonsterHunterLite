@@ -1,0 +1,16 @@
+{
+    "name": "Glaive_Dude",
+    "author": "Hippo",
+    "version_number": "0.0.1",
+    "website_url": "",
+    "description": "Glaive Glaive",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+        "RiskofThunder-R2API_Core-5.0.3",
+        "RiskofThunder-R2API_Prefab-1.0.1",
+        "RiskofThunder-R2API_RecalculateStats-1.0.0",
+        "RiskofThunder-R2API_Language-1.0.1",
+        "RiskofThunder-R2API_Sound-1.0.2"
+        "R2API.DamageType" Version="1.1.2"
+    ]
+}
