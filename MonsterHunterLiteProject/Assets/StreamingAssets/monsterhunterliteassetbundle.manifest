@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1549463431
+CRC: 308199282
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ffdf0626bec8df1d117ee9309c0312b0
+    Hash: 0633df572b9a0a985d947d19423b36f2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7c357fa43ff2e1360157495403eb365e
+    Hash: df7f8a3d3f9864702ef7d7468a55edc7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,11 +40,29 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 678291247, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 1790887305, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
   Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -226763392, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: -1848696948, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -317677761, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 664490745, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9a68da65c907acb4eb4dbcd042f172e7, type: 3}
 - Class: 115
@@ -74,6 +92,20 @@ ClassTypes:
 SerializeReferenceClassIdentifiers:
 - AssemblyName: RoR2
   ClassName: ChildLocator/NameTransformPair
+- AssemblyName: RoR2
+  ClassName: RoR2.DamageTypeCombo
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkHash128
+- AssemblyName: com.unity.multiplayer-hlapi.Runtime
+  ClassName: UnityEngine.Networking.NetworkSceneId
 Assets:
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Idle.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Icons/texStingerIcon.png
@@ -165,6 +197,7 @@ Assets:
 - Assets/MonsterHunterLite/Assets/MHBundle/HenryBazookaRocketGhost.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshHenrySword.mesh
 - Assets/MonsterHunterLite/Assets/MHBundle/Icons/texPrimaryIcon.png
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Gunlance/WyrmStakeGhost.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/GreatswordMonsterMaster.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/Icons/texHenryIcon.png
 - Assets/MonsterHunterLite/Assets/MHBundle/mdlGunlance.prefab
@@ -209,7 +242,7 @@ Assets:
 - Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matSlash.mat
 - Assets/MonsterHunterLite/Assets/MHBundle/GlaiveDisplay.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/VFX/Materials/matEmbers.mat
-- Assets/MonsterHunterLite/Assets/MHBundle/VFX/BlastBugAttachEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Glaive/BlastBugAttachEffect.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/Icons/RedBugOutline.png
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/AimYaw.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/DefaultPose.anim
@@ -222,7 +255,7 @@ Assets:
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/WalkL.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/RestIdle.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskAimBazooka.mask
-- Assets/MonsterHunterLite/Assets/MHBundle/VFX/BlastBugDetonationEffect.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Glaive/BlastBugDetonationEffect.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/Materials/matShotgun.mat
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/SprintL.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/maskAimYaw.mask
@@ -258,5 +291,6 @@ Assets:
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/clips/Roll.anim
 - Assets/MonsterHunterLite/Assets/MHBundle/Mesh/meshVergilCoat.mesh
 - Assets/MonsterHunterLite/Assets/MHBundle/VFX/ImpactHenrySlash.prefab
+- Assets/MonsterHunterLite/Assets/MHBundle/VFX/Gunlance/WyrmStake.prefab
 - Assets/MonsterHunterLite/Assets/MHBundle/Animation/animHenryMenu.controller
 Dependencies: []
