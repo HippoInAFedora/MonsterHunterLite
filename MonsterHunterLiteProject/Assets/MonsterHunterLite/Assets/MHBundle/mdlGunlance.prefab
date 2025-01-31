@@ -132,8 +132,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3191860896122454425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 3.3}
-  m_LocalScale: {x: 5, y: 5, z: 8}
+  m_LocalPosition: {x: 0, y: 2.5, z: 4}
+  m_LocalScale: {x: 7, y: 7, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6762381100481560879}
@@ -689,7 +689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6762381100465559417}
   m_Layer: 0
-  m_Name: SwordHitbox
+  m_Name: BlastDashHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -702,9 +702,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6762381100465559418}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.22, z: 2.5}
-  m_LocalScale: {x: 8, y: 4.5, z: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -3}
+  m_LocalScale: {x: 2, y: 2, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6762381100481560879}
@@ -2237,8 +2237,8 @@ MonoBehaviour:
     transform: {fileID: 3367991233418227789}
   - name: SwingRight
     transform: {fileID: 3367991234687592554}
-  - name: WideSweepHitbox
-    transform: {fileID: 2373461586156721157}
+  - name: BlastDashHitbox
+    transform: {fileID: 6762381100465559417}
   - name: SlamHitbox
     transform: {fileID: 1726974724109857741}
 --- !u!114 &621097089473839310
