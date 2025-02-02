@@ -36,14 +36,24 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates
             {
                 if (!isFullReload)
                 {
+                    //if (reloadsPrimary)
+                    //{ 
+                    //    int reloadCount = base.skillLocator.primary.maxStock + base.skillLocator.secondary.bonusStockFromBody - base.skillLocator.primary.stock < 2 ? base.skillLocator.primary.maxStock - base.skillLocator.primary.stock : 2;
+                    //    ReloadPrimaryStock(reloadCount);
+                    //}
+                    //if (reloadsSecondary)
+                    //{
+                    //    int reloadCount = base.skillLocator.secondary.maxStock - base.skillLocator.secondary.stock < shellInfo.maxShells ? base.skillLocator.secondary.maxStock - base.skillLocator.secondary.stock : shellInfo.maxShells;
+                    //    ReloadSecondaryStock(reloadCount);
+                    //}
                     if (reloadsPrimary)
-                    { 
-                        int reloadCount = base.skillLocator.primary.maxStock + base.skillLocator.secondary.bonusStockFromBody - base.skillLocator.primary.stock < 2 ? base.skillLocator.primary.maxStock - base.skillLocator.primary.stock : 2;
+                    {
+                        int reloadCount = base.skillLocator.primary.maxStock + base.skillLocator.secondary.bonusStockFromBody - base.skillLocator.primary.stock;
                         ReloadPrimaryStock(reloadCount);
                     }
                     if (reloadsSecondary)
                     {
-                        int reloadCount = base.skillLocator.secondary.maxStock - base.skillLocator.secondary.stock < shellInfo.maxShells ? base.skillLocator.secondary.maxStock - base.skillLocator.secondary.stock : shellInfo.maxShells;
+                        int reloadCount = base.skillLocator.secondary.maxStock - base.skillLocator.secondary.stock;
                         ReloadSecondaryStock(reloadCount);
                     }
                 }

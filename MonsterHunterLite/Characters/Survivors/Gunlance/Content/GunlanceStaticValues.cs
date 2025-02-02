@@ -28,10 +28,10 @@ namespace MonsterHunterMod.Survivors.Gunlance
         //long shell values
         public const float longRadius = 2f;
         public const float longRadiusCharged = 4f;
-        public const float longDistance = 20f;
+        public const float longDistance = 22f;
         public const float longDistanceCharged = 30f;
         public const float longDamageCoefficient = 3.0f;
-        public const float longDamageCoefficientChargeMult = 1.2f;
+        public const float longDamageCoefficientChargeMult = .2f;
         public const float longProc = 1f;
 
         //wide shell values
@@ -40,7 +40,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
         public const float wideDistance = 14f;
         public const float wideDistanceCharged = 16f;
         public const float wideDamageCoefficient = 1.0f;
-        public const float wideDamageCoefficientChargeMult = 1.5f;
+        public const float wideDamageCoefficientChargeMult = .5f;
         public const float wideProc = .5f;
     }
 }

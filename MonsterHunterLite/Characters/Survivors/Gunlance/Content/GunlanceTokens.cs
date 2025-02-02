@@ -42,21 +42,21 @@ namespace MonsterHunterMod.Survivors.Gunlance
 
             #region Passive
             Language.Add(prefix + "PASSIVE_NAME", "Ammo Stocks");
-            Language.Add(prefix + "PASSIVE_DESCRIPTION", $"Ammo is stored in Cooldowns. It does not recharge autmatically; rather, ammo must be reloaded when out of stocks or by manually reloading. Quick reloading reloads up to base stocks, while manual reloading reloads ALL stocks.");
+            Language.Add(prefix + "PASSIVE_DESCRIPTION", $"Ammo is stored in Cooldowns. It does not recharge autmatically; rather, ammo must be reloaded when out of stocks or by manually reloading.");
 
             Language.Add(prefix + "NORMAL_SHELLING_NAME", "Normal Shelling");
-            Language.Add(prefix + "NORMAL_SHELLING_DESCRIPTION", $"Hold 6 shells. Shells deal <style=cIsDamage>{100 * GunlanceStaticValues.normalDamageCoefficient}%</style>. Charging increases shells unloaded. Full burst shells deal <style=cIsDamage>{100 * GunlanceStaticValues.normalDamageCoefficientBurst}% damage</style>");
+            Language.Add(prefix + "NORMAL_SHELLING_DESCRIPTION", $"Shell Count: 6\r\nShell Damage: <style=cIsDamage>{100 * GunlanceStaticValues.normalDamageCoefficient}% damage</style>\r\nCharged Shelling: Unloads an extra shell per charge.\r\nBlast Dash: Short\r\nFull Burst: <style=cIsDamage>{100 * GunlanceStaticValues.normalDamageCoefficientBurst}% damage</style> per shell\r\n");
 
             Language.Add(prefix + "LONG_SHELLING_NAME", "Long Shelling");
-            Language.Add(prefix + "LONG_SHELLING_DESCRIPTION", $"Hold 3 shells. Shells deal <style=cIsDamage>{100 * GunlanceStaticValues.longDamageCoefficient}%</style> at extended range.");
+            Language.Add(prefix + "LONG_SHELLING_DESCRIPTION", $"Shell Count: 3\r\nShell Damage: <style=cIsDamage>{100 * GunlanceStaticValues.longDamageCoefficient}% damage</style>\r\nCharged Shelling: <style=cIsDamage>{100 * GunlanceStaticValues.longDamageCoefficientChargeMult}% damage</style> increase, along with increased range. Charges once per shell.\r\nBlast Dash: Mid\r\nFull Burst: No change\r\n");
 
             Language.Add(prefix + "WIDE_SHELLING_NAME", "Wide Shelling");
-            Language.Add(prefix + "WIDE_SHELLING_DESCRIPTION", $"Hold 2 shells. Each shell deals <style=cIsDamage>5 * {100 * GunlanceStaticValues.wideDamageCoefficient}%</style>. Can charge up to two times.");
+            Language.Add(prefix + "WIDE_SHELLING_DESCRIPTION", $"Shell Count: 2\r\nShell Damage: <style=cIsDamage>5 * {100 * GunlanceStaticValues.wideDamageCoefficient}% damage</style>\r\nCharged Shelling: <style=cIsDamage>{100 * GunlanceStaticValues.wideDamageCoefficientChargeMult}% damage</style> increase. Charges up to two times per shell.\r\nBlast Dash: Long\r\nFull Burst: No change\r\n");
             #endregion
 
             #region Primary
-            Language.Add(prefix + "PRIMARY_THRUST_NAME", "Thrust & WurmStake");
-            Language.Add(prefix + "PRIMARY_THRUST_DESCRIPTION", $"Thrust forward for <style=cIsDamage>{100 * GunlanceStaticValues.thrustDamageCoefficient}%</style>. After 3 strikes, shoot a WurmStake for <style=cIsDamage>10 * 25% + {100 * GunlanceStaticValues.wyrmStake}% damage</style> or Quick Reload. Primary stocks dictate current WurmStake stock.");
+            Language.Add(prefix + "PRIMARY_THRUST_NAME", "Thrust & Wurm-Stake");
+            Language.Add(prefix + "PRIMARY_THRUST_DESCRIPTION", $"Thrust forward for <style=cIsDamage>{100 * GunlanceStaticValues.thrustDamageCoefficient}%</style>. After 3 strikes, shoot a <style=cIsDamage>Wurm-Stake</style> or Quick Reload. Primary stocks dictate current <style=cIsDamage>Wurm-Stake</style> stock.");
             #endregion
 
             #region Secondary
@@ -64,7 +64,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
             Language.Add(prefix + "SECONDARY_SHELLING_DESCRIPTION", $"Charge and shoot a shell, or Quick Reload if empty. Bounce upwards on shot if airborne. Full burst if used immediately after landing a slam.");
 
             Language.Add(prefix + "SECONDARY_BLAST_DASH_NAME", "Blast Dash");
-            Language.Add(prefix + "SECONDARY_BLAST_DASH_DESCRIPTION", $"<style=cIsUtility>Heavy</style>. Charging converts a shell into a blast dash!");
+            Language.Add(prefix + "SECONDARY_BLAST_DASH_DESCRIPTION", $"<style=cIsUtility>Heavy</style>. Charging converts a shell into a blast dash, dealing <style=cIsDamage>{100 * GunlanceStaticValues.blastDashDamageCoefficient}% damage</style>.");
             #endregion
 
             #region Utility
@@ -73,7 +73,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
             #endregion
 
             #region Special
-            Language.Add(prefix + "SPECIAL_DEVASTATION_NAME", "WurmFire");
+            Language.Add(prefix + "SPECIAL_DEVASTATION_NAME", "Wurm-Fire");
             Language.Add(prefix + "SPECIAL_DEVASTATION_DESCRIPTION", $"Gain <style=cIsUtility>500 armor</style>, bracing yourself for 4s, then shoot a devastating beam for <style=cIsDamage>{100 * GunlanceStaticValues.wyvernFireCoefficient}% damage</style>.");
             #endregion
 

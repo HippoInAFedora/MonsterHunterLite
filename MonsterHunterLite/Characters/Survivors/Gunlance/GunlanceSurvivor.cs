@@ -53,8 +53,8 @@ namespace MonsterHunterMod.Survivors.Gunlance
             crosshair = Asset.LoadCrosshair("Standard"),
             podPrefab = LegacyResourcesAPI.Load<GameObject>("Prefabs/NetworkedObjects/SurvivorPod"),
 
-            maxHealth = 130f,
-            healthRegen = 1.0f,
+            maxHealth = 160f,
+            healthRegen = 2.5f,
             armor = 0f,
         };
 
@@ -240,7 +240,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
                     "Weapon",
                     false
                 ));
-            primarySkillDef1.keywordTokens = new string[] { Tokens.gunlanceSlamKeyword };
+            primarySkillDef1.keywordTokens = new string[] { Tokens.gunlanceSlamKeyword, Tokens.wyrmStakeKeyword };
             primarySkillDef1.baseStateType = new EntityStates.SerializableEntityStateType(typeof(SteppedThrust));
             primarySkillDef1.jumpStateType = new EntityStates.SerializableEntityStateType(typeof(Slam));
             primarySkillDef1.finisherStateType = new EntityStates.SerializableEntityStateType(typeof(WyrmStake));
@@ -285,7 +285,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
                 activationState = new EntityStates.SerializableEntityStateType(typeof(ChargingBlast)),
 
                 activationStateMachineName = "Weapon",
-                interruptPriority = EntityStates.InterruptPriority.Skill,
+                interruptPriority = EntityStates.InterruptPriority.PrioritySkill,
 
                 baseRechargeInterval = 0f,
 
@@ -317,7 +317,7 @@ namespace MonsterHunterMod.Survivors.Gunlance
                 activationState = new EntityStates.SerializableEntityStateType(typeof(ChargingBlastDash)),
 
                 activationStateMachineName = "Weapon",
-                interruptPriority = EntityStates.InterruptPriority.Any,
+                interruptPriority = EntityStates.InterruptPriority.PrioritySkill,
                 keywordTokens = new string[] { "KEYWORD_HEAVY" },
 
                 baseRechargeInterval = 0f,

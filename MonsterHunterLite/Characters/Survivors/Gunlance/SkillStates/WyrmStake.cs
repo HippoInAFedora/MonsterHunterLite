@@ -45,7 +45,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates
                 bullet.origin = base.GetAimRay().origin;
                 bullet.aimVector = base.GetAimRay().direction;
                 bullet.force = 500f;
-                bullet.radius = 2f;
+                bullet.radius = .5f;
                 bullet.bulletCount = 1;
                 bullet.stopperMask = LayerIndex.CommonMasks.bullet;
                 bullet.isCrit = base.RollCrit();

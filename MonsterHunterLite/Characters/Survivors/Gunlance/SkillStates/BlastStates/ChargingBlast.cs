@@ -15,7 +15,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates.BlastStates
         public GunlanceShellController shell;
         public GunlanceShellController.ShellingInfo shellInfo;
 
-        public float baseDuration = .75f;
+        public float baseDuration = .55f;
         public float duration;
         public int chargeLevel = 1;
         public float stopwatch = 0f;

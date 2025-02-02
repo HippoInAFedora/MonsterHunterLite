@@ -33,6 +33,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates.BlastStates
         public override void OnEnter()
         {
             base.OnEnter();
+            duration = baseDuration / attackSpeedStat;
             shell = GetComponent<GunlanceShellController>();
             if (shell != null)
             {
@@ -79,7 +80,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates.BlastStates
             blast.teamIndex = teamComponent.teamIndex;
             blast.falloffModel = BlastAttack.FalloffModel.Linear;
             blast.radius = chargeLevel > 1 || isFullBurst ? shellInfo.chargedRadius : shellInfo.baseRadius;
-            blast.baseDamage = characterBody.damage * damage * (chargeLevel * shellInfo.chargeMult);
+            blast.baseDamage = chargeLevel > 1 ? characterBody.damage * damage * ((chargeLevel - 1) * shellInfo.chargeMult) : characterBody.damage * damage;
             blast.Fire();
         }
 
@@ -90,7 +91,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates.BlastStates
 
         public void FireShot(Ray aimRay)
         {
-            float damage = isFullBurst ? shellInfo.burstDamage : shellInfo.baseDamage * (chargeLevel * shellInfo.chargeMult);
+            float damage = isFullBurst ? shellInfo.burstDamage : shellInfo.baseDamage * (1 + ((chargeLevel - 1) * shellInfo.chargeMult));
             BulletAttack bullet = new BulletAttack();
             bullet.owner = gameObject;
             bullet.weapon = gameObject;
@@ -101,7 +102,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates.BlastStates
             bullet.stopperMask = LayerIndex.noCollision.mask;
             bullet.radius = chargeLevel > 1 || isFullBurst ? shellInfo.chargedRadius : shellInfo.baseRadius;
             bullet.maxDistance = chargeLevel > 1 ? shellInfo.chargedDistance : shellInfo.baseDistance;
-            bullet.damage = characterBody.damage * damage * (chargeLevel * shellInfo.chargeMult);
+            bullet.damage = characterBody.damage * damage;
             bullet.Fire();
             EffectManager.SpawnEffect(blastEffectPrefab, new EffectData
             {

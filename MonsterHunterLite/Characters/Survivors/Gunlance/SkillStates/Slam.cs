@@ -47,7 +47,7 @@ namespace MonsterHunterMod.Characters.Survivors.Gunlance.SkillStates
         private float stopwatch;
         private float timerAfterHasLanded;
 
-        private float durationAfterLanded = 1f;
+        private float durationAfterLanded;
 
         private Animator animator;
 

@@ -22,7 +22,9 @@ namespace MonsterHunterMod.Modules
 
         public static string airBugKeyword = KeywordText("Blue Extraction", "Inert extraction activated upon vaulting. <style=cIsDamage>Increases damage by 120%</style> and boosts all other Swarm Statuses. Extraction removed on touching the ground. Can stack 3 times.");
 
-        public static string gunlanceSlamKeyword = KeywordText("Slam", $"While airborne, instead slam for <style=cIsDamage>{100 * GunlanceStaticValues.slamDamageCoefficient}</style>. After slamming, secondary can unload all shells in a Full Burst!");
+        public static string gunlanceSlamKeyword = KeywordText("Slam", $"While airborne, instead slam for <style=cIsDamage>{100 * GunlanceStaticValues.slamDamageCoefficient}% Damage</style>. After slamming, secondary can unload all shells in a Full Burst!");
+
+        public static string wyrmStakeKeyword = KeywordText("Wurm-Stake", $"on impact, deal <style=cIsDamage>8 * 25% damage</style> over 2.5s, then explode for <style=cIsDamage>{100 * GunlanceStaticValues.wyrmStake}%</style>.");
 
         public static string DamageText(string text)
         {
